@@ -7,9 +7,10 @@
 | 飞书 | feishu_doc, feishu_bitable, feishu_wiki, feishu_drive, feishu_chat |
 | QQ | QQBot（消息、语音、图片） |
 
-## 常用 Skills
+## 已安装 Skills（按类别）
 
 ### 核心能力
+- **openclaw** — OpenClaw 运维（安装于 2026-03-19）
 - **github** — GitHub issue/PR/操作
 - **gmail** — 邮件读写
 - **weather** — 天气预报
@@ -20,6 +21,13 @@
 - **us-stock-analysis** — 美股分析
 - **trading-research** — 交易研究
 - **stock-watcher** — 自选股监控
+- **coinank-openapi** — CoinAnk 加密数据 API（Key 未配置）
+
+### 建筑 & 工程
+- **afrexai-construction-estimator** — 全面工程造价估算
+- **open-construction-estimate** — 公开造价数据库（5.5万+单价）
+- **pandas-construction-analysis** — BIM 数据分析
+- **estimate-builder** — 工程估算生成器
 
 ### 创作 & 媒体
 - **image-cog** — AI 图片生成
@@ -27,16 +35,14 @@
 - **video-frames** — 视频帧提取
 - **remotion-video-toolkit** — 视频制作
 - **pdf** — PDF 处理
-- **excel-xlsx** / **word-docx** / **powerpoint-pptx** — Office 文档
+- **excel-xlsx** — Excel 处理
+- **word-docx** — Word 文档
+- **powerpoint-pptx** — PPT 制作
 
 ### 任务 & 自动化
 - **browser-automation** — 网页自动化
 - **tmux** — 终端会话管理
-- **cron** — 定时任务
 - **news-aggregator** — 每日新闻聚合
-
-### AI 能力
-- **openclaw** — OpenClaw 运维（刚安装）
 - **ai-self-evolution** — 自我学习改进
 - **proactive-agent** — 主动 Agent
 - **memory-system-v2** — 记忆系统
@@ -45,7 +51,7 @@
 
 ```
 ~/.openclaw/workspace/
-├── skills/                   # 所有技能
+├── skills/                   # 技能包 (~90个)
 ├── memory/                   # 每日日志
 ├── cron/                     # 定时脚本
 │   └── daily_stock_report.sh
@@ -54,12 +60,19 @@
 └── .openclaw/               # 配置（不提交 git）
 ```
 
+## API Key 状态
+
+| Key | 状态 | 位置 |
+|---|---|---|
+| GEMINI_API_KEY | ✅ 已配置 | ~/.openclaw/.env |
+| MINIMAX_API_KEY | ❌ 未配置 | — |
+| COINANK_API_KEY | ❌ 未配置 | — |
+
 ## 待补充
 
 - [ ] SSH 主机配置
 - [ ] 摄像头使用偏好
 - [ ] TTS 语音偏好
-- [ ] 常用 API Keys 状态
 
 ---
 

@@ -96,6 +96,12 @@
       "zip_url": "https://lightmake.site/api/v1/download?slug=monica-three-tier-memory",
       "source": "skillhub",
       "version": "1.0.0"
+    },
+    "coinank-openapi": {
+      "name": "coinank-openapi",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=coinank-openapi",
+      "source": "skillhub",
+      "version": "1.0.2"
     }
   }
 }
