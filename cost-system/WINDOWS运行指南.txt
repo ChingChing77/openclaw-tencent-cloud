@@ -1,0 +1,41 @@
+# 工程造价成本建档系统 - Windows运行指南
+
+## 方法一：直接运行Python代码（推荐）
+
+### 1. 安装Python
+去官网下载Python 3.10+：https://www.python.org/downloads/
+安装时勾选 "Add Python to PATH"
+
+### 2. 安装依赖
+打开CMD命令提示符，输入：
+```
+pip install flask flask-cors
+```
+
+### 3. 运行程序
+把 app_full.py 复制到电脑，双击运行或CMD输入：
+```
+python app_full.py
+```
+
+### 4. 打开浏览器访问
+http://localhost:5000
+
+---
+
+## 方法二：打包成exe（更方便）
+
+### 1. 安装Python和依赖（同上）
+
+### 2. 安装打包工具
+```
+pip install pyinstaller
+```
+
+### 3. 打包
+```
+pyinstaller --onefile app_full.py
+```
+
+### 4. 运行
+dist文件夹里的exe可以直接发给别人使用

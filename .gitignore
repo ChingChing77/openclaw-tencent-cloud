@@ -1,0 +1,14 @@
+# 敏感文件
+.openclaw/
+.clawhub/
+*.docx
+*.tar.gz
+cron/*.json
+skills/*/node_modules/
+skills/*/.git/
+workspace-state.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log

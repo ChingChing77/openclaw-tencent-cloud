@@ -1,0 +1,7 @@
+# 每日动量报告 Cron 配置
+# 美股开盘时间（北京时间）: 夏令时 21:30，冬令时 22:30
+# 报告发送时间: 开盘前 45 分钟
+
+# Cron 格式: 分 时 日 月 周
+# 每个交易日晚 20:45 执行 (周一至周五)
+45 20 * * 1-5 cd /root/.openclaw/workspace/daily-momentum-agent && ./run.sh >> /root/.openclaw/workspace/daily-momentum-agent/cron.log 2>&1

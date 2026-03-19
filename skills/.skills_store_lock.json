@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-browser": {
+      "name": "Agent Browser",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=agent-browser",
+      "source": "skillhub",
+      "version": "0.2.0"
+    },
+    "tavily-search": {
+      "name": "Tavily Web Search",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=tavily-search",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "find-skills": {
+      "name": "Find Skills",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=find-skills",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "weather": {
+      "name": "Weather",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=weather",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "self-improving-agent": {
+      "name": "self-improving-agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving-agent",
+      "source": "skillhub",
+      "version": "1.0.11"
+    },
+    "summarize": {
+      "name": "Summarize",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=summarize",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "skill-vetter": {
+      "name": "Skill Vetter",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=skill-vetter",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "proactive-agent": {
+      "name": "Proactive Agent",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=proactive-agent",
+      "source": "skillhub",
+      "version": "3.1.0"
+    },
+    "gog": {
+      "name": "Gog",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=gog",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "ai-self-evolution": {
+      "name": "AI自动进化工程，结合self-improvement技巧+实际运行总结而成",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=ai-self-evolution",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "multi-source-news-digest": {
+      "name": "Multi Source Tech News Digest",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=multi-source-news-digest",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "memory-system-v2": {
+      "name": "Memory System V2",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=memory-system-v2",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "openclaw-memory": {
+      "name": "Openclaw Memory",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=openclaw-memory",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "openclawmp": {
+      "name": "OpenClawMP",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=openclawmp",
+      "source": "skillhub",
+      "version": "1.1.2"
+    },
+    "browser-automation": {
+      "name": "Browser Automation",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=browser-automation",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "monica-three-tier-memory": {
+      "name": "Three Tier Memory",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=monica-three-tier-memory",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}
