@@ -65,7 +65,7 @@
 | Key | 状态 | 位置 |
 |---|---|---|
 | GEMINI_API_KEY | ✅ 已配置 | ~/.openclaw/.env |
-| MINIMAX_API_KEY | ❌ 未配置 | — |
+| MINIMAX_API_KEY | ✅ 已配置 | ~/.openclaw/.env |
 | COINANK_API_KEY | ❌ 未配置 | — |
 
 ## 待补充

@@ -17,8 +17,9 @@ _这是黑莓的长期记忆库。只记录重要的、持久的facts/决策/教
 - **模型：** minimax/MiniMax-M2.5-highspeed（主）| gemini/gemini-2.5-flash（备）
 - **工作区 GitHub：** ChingChing77/openclaw-tencent-cloud
 - **技能包：** ~90 个 skills 安装在 `~/.openclaw/workspace/skills/`
-- **Gemini API Key：** 已配置（`~/.openclaw/.env`）
-- **CoinAnk API Key：** 未配置（skill 已安装）
+- **Gemini API Key：** ✅ 已配置
+- **MiniMax API Key：** ✅ 已配置
+- **CoinAnk API Key：** ❌ 未配置
 
 ## 重要决策记录
 
