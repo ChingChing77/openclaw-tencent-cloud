@@ -35,15 +35,17 @@
 
 可主动做：整理记忆、更新 MEMORY.md、推送 git commit。
 
-## 目录结构
+## 工作区目录
 
 ```
 ~/.openclaw/workspace/
-├── skills/          # 90+ 个安装的技能
-├── memory/          # 每日日志
-├── MEMORY.md        # 长期记忆
-├── cron/            # 定时任务脚本
-├── scripts/         # 工具脚本
-├── docs/            # 文档归档（.docx 等）
+├── skills/              # 106 个已安装技能
+├── memory/              # 每日日志
+├── MEMORY.md            # 长期记忆
+├── cron/                # 定时脚本（股票报告等）
+├── scripts/             # 工具脚本（Windows 清理等）
+├── docs/                # 归档文档（.docx）
+├── cost-system/         # 工程造价成本系统
+├── daily-momentum-agent/ # 每日动量报告 agent
 └── [SOUL|AGENTS|USER|HEARTBEAT|TOOLS].md  # 核心文件
 ```
